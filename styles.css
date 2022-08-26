@@ -1,0 +1,595 @@
+
+    html{
+      font-family:sans-serif;
+    }      
+  .overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgb(53, 49, 49); /* Black fallback color */
+    background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+  }
+  
+  /* Position the content inside the overlay */
+  .overlay-content {
+    position: relative;
+    top: 25%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+  }
+  
+  /* The navigation links inside the overlay */
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  /* Position the close button (top right corner) */
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+  }
+  
+  #jumbo{
+      background: rgba(0, 0, 0, 0.7) url("file:///C:/Users/ademola/Desktop/MASTERIMAGE/digi12.jpg");
+      background-position: center;
+      height:80vh;
+      background-size: cover;
+      background-blend-mode:darken;
+      margin-top:-30px;
+  }
+  .ftco-section{
+    margin-top:-100px;
+  }
+  .vert-btn{
+      color:rgb(245, 192, 192);;
+      font-size:50px;
+      float:right;
+      margin-top:-68px;
+      margin-right:20px;
+  }
+  #formpass{
+      width:40vh;
+     margin:0 auto;
+      height:45vh;
+      padding-top:30px;
+  
+  }
+  textarea{
+      resize: none;
+  }
+  .py-1{
+      font-size:60px;
+      color:#f1f1f1;
+      text-align: center;
+      font-weight:700;
+  }
+  .herotxt{
+    font-size:35px;
+    font-weight:bold;
+  }
+  .py-1x{
+      font-size:30px;
+      color:#f1f1f1;
+      text-align: center;
+      font-weight:500; 
+  }
+  #logo{
+      font-size:20px;
+      font-weight:bold;
+      color:rgb(245, 192, 192);
+      margin-left:10px;
+      
+  
+  }
+  
+  
+  .pass{
+      background-image:inherit;
+      border:2px solid rgb(245, 192, 192);
+      width:50vh;
+      height:60vh;
+  }
+  .mybtn{
+      width:120px;
+      height:35px;
+      color:#9b9797;
+      border-style:none;
+      border-radius:20px;
+      margin-top:10px;
+      background-color:rgb(245, 192, 192);
+  }
+  .mybtn1{
+      width:130px;
+      height:40px;
+      color:white;
+      border:2px solid rgb(245, 192, 192);
+      border-radius:20px;
+      margin-top:10px;
+      background-color:inherit;
+  }
+  .mybtn1x{
+      width:130px;
+      height:40px;
+      color:rgb(12, 11, 11);
+      border-style:none;
+      border-radius:20px;
+      margin-top:10px;
+      background-color:rgb(245, 192, 192);
+  }
+  .mybtn2{
+      width:250px;
+      height:40px;
+      color:white;
+      border-style:none;
+      border-radius:20px;
+      margin-top:10px;
+      background-color: rgb(245, 192, 192);
+  }
+  .label-1{
+    color:#f1f1f1;
+  }
+  .subtext{
+    color:#f1f1f1;
+    font-size:smaller;
+  
+  }
+  #messageinput{
+    margin-top:10px;
+    height:100px;
+  }
+  .cap{
+    color: rgb(245, 192, 192);
+  }
+  /* CUSTOMIZE THE CAROUSEL
+  -------------------------------------------------- */
+  
+  /* Carousel base class */
+  .carousel {
+    margin-bottom: 5rem;
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 20rem;
+    
+  }
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+  }
+  
+  .row-1{
+    margin-top:70px;
+  }
+  .highlight{
+    font-size:smaller;
+    color:#9b9797;
+    margin-top:30px;
+  }
+  .main-txt{
+    font-size:50px;
+    color:black;
+    font-weight:bold;
+    margin-top:30px;
+  }
+  .ab-2{
+    font-size:small;
+    font-weight:500;
+  }
+  .chx-wid{
+    width:300px;
+  }
+  .chx-wid1{
+    width:400px;
+  }
+  
+  .special-txt{
+    color:red;
+    font-size:medium;
+    font-weight:600;
+  }
+  @media (max-width:767px){
+    .chx-wid{
+      width:auto;
+    }
+    .chx-wid1{
+      width:auto;
+    }
+    .pass{
+      display:none;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .rounded-lg-3 { border-radius: .3rem; }
+  }
+  
+  
+  
+  /*
+   * Extra utilities
+   */
+  
+  .flex-equal > * {
+    flex: 1;
+  }
+  @media (min-width: 768px) {
+    .flex-md-equal > * {
+      flex: 1;
+    }
+  }
+  .back-img{
+    background: rgba(0, 0, 0, 0.7) url("file:///C:/Users/ademola/Desktop/MASTERIMAGE/use3.jpg");
+    background-position: center;
+    background-size:cover;
+    background-blend-mode:color-burn; 
+  }
+  .back-img1{
+    background: rgba(0, 0, 0, 0.7) url("file:///C:/Users/ademola/Desktop/MASTERIMAGE/use.jpg");
+    background-position: center;
+    background-size:cover;
+    background-blend-mode:darken;
+  }
+  .back-img2{
+      background: rgba(0, 0, 0, 0.7) url("file:///C:/Users/ademola/Desktop/MASTERIMAGE/BABBEL3.jpg");
+    background-position: center;
+    background-size:cover;
+    background-blend-mode:darken;
+  }
+  .back-img3{
+      background: rgba(0, 0, 0, 0.7) url("file:///C:/Users/ademola/Desktop/MASTERIMAGE/charlesdeluvio-Lks7vei-eAg-unsplash.jpg");
+    background-position: center;
+    background-size:cover;
+    background-blend-mode:darken;
+  }
+  .back-img4{
+      background: rgba(0, 0, 0, 0.7) url("file:///C:/Users/ademola/Desktop/MASTERIMAGE/rui-silvestre-9vxJQmZmTYU-unsplash.jpg");
+    background-position: center;
+    background-size:cover;
+    background-blend-mode:darken;
+  }
+  .button-hide{
+    display:none;
+    margin-top:-100px;
+  
+  }
+  .hideme{
+    opacity:0;
+  }
+  #container SECTION{
+    margin-bottom:50px;
+  }
+  .txtadd{
+    font-weight:bold;
+  }
+  #newsect{
+      background: rgba(0, 0, 0, 0.7) url("file:///C:/Users/ademola/Desktop/MASTERIMAGE/2h-media-sxOEkZnZlxU-unsplash.jpg");
+      background-position: center;
+      height:100vh;
+      background-size: cover;
+      background-blend-mode:darken;
+  }
+  #anothersection{
+    background: rgba(0, 0, 0, 0.7) url("file:///C:/Users/ademola/Desktop/MASTERIMAGE/priscilla-du-preez-cIfLUEZYLVg-unsplash.jpg");
+    background-position: center;
+    background-size:cover;
+    background-blend-mode:darken;
+    height:100vh;
+    overflow:hidden;
+  }
+  @media (min-width: 768px) {
+          .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+          }
+        }
+    .coll{
+      width:60vh;
+      height:15vh;
+     margin:0 auto;
+     margin-bottom:10px;
+      border: 2px solid  rgb(245, 192, 192);
+      border-radius:10px;
+    }
+    .coll P{
+      color:aliceblue;
+      font-size:25px;
+      margin-top:3vh;
+     text-align: center;
+    }
+    .coll-a{
+     width:180px;
+     margin:0 auto;
+    }
+    .reg-txt{
+      color:rgb(245, 192, 192);
+      padding-top:20px;
+      padding-bottom:20px;
+    }
+    @media(max-width:767px){
+      #newsect{
+        height:175vh;
+      }
+    }
+    #prod-x{
+      border:2px solid rgb(245, 192, 192);
+      padding:20px;
+    }
+    #testimo-ny{
+      height:50vh;
+      width:auto;
+      background-color:rgb(245, 192, 192) ;
+      margin-top:-50px;
+    }
+    .marketing{
+      padding:50px;
+    }
+    .marketing .col-sm-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+  /* rtl:begin:ignore */
+  .marketing .col-sm-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  .gpy{
+    color:#818181;
+  }
+  @media(max-width:767px){
+    #testimo-ny{
+      height:130vh;
+    }
+    .main-txt{
+      font-size:30px;
+    }
+  }
+  .reg-txt1{
+    margin:0 auto;
+    width:300px;
+    color:aliceblue;
+    margin-top:10px;
+  }
+  #anothersection1{
+    background-color:rgb(245, 192, 192) ;
+    overflow:hidden;
+  }
+  .bottom-cont{
+    width:400px;
+  }
+  #newform{
+    margin-top:50px;
+  }
+  .gp-y{
+    margin-top:12px;
+  }
+  .main-txtx{
+    font-size:35px;
+    font-weight:bold;
+    margin-top:60px;
+  }
+  .main-txtxy{
+    font-size:35px;
+    font-weight:bold;
+    margin-top:60px;
+    color:aliceblue;
+  }
+  .sub-txtx{
+    font-size:13px;
+    color:#9b9797;
+  }
+  .foot-txt{
+    font-size:11px;
+    color:#9b9797;
+  }
+  .gp-yx{
+    font-weight:bold;
+    color:#181818;
+  }
+  .footer-btn{
+    background-color:rgb(243, 154, 39);
+    color:aliceblue; 
+  }
+  .label-1x{
+    font-size:12px;
+    font-weight:bold;
+  }
+  .ab-1x{
+    color:aliceblue;
+  }
+  .bi{
+    color:white;
+    margin-right:10px;
+  }
+  .xvy{
+    font-size:20px;
+    margin-top:40px;
+    margin-bottom:30px;
+  }
+  .fix-1{
+    float:left;
+    object-position: left;
+    margin-left: 20px;
+    margin-top:15px;
+    color:rgb(248, 125, 125);
+   
+  }
+  .widt{
+    margin-top:50px;
+  }
+  #blogsection{
+    height:500px;
+    margin-top:-50px;
+  }
+  #contact-sect{
+   height:100vh;
+   margin-top:-100px;
+  }
+  @media(max-width:767px){
+    #contact-sect{
+      margin-top:150px;
+  }
+  }
+  .blog-txt{
+    font-weight:light;
+    font-size:medium;  
+  }
+  .date{
+    font-weight:bold;
+    font-size:x-large; 
+    color:rgb(139, 147, 156);
+  }
+  .datetxt{
+    font-weight:bold;
+  }
+  .blogtxt-1{
+    font-weight:bold;
+  }
+  .blogtxt-2{
+    font-weight:400;
+    font-size: small;
+  }
+  .newClass{
+    background-color:#000;
+    color:#fff;
+  }
+  .hoveClass{
+    background-color:rgb(245, 192, 192);
+  }
+  .acv{
+    font-size:10px;
+    color:#818181;
+  }
+  .card-img-top{
+    height:50vh;
+  }
+  .myCont-1{
+    width:750px;
+  }
+  .img-x1{
+    height:200px;
+   width:100%;
+  }
+  .row-small{
+    width:500px;
+    margin:0 auto;
+  }
+  @media(max-width:767px){
+    .myCont-1{
+      width:100%;
+    }
+    .img-x1{
+      height:250px;
+    }
+  }
+  .main-txt2{
+    font-size:30px;
+  }
+  .textx{
+    margin:0 auto;
+    width:450px;
+  }
+  .mytext1{
+    margin:0 auto;
+    font-size:18px;
+    margin-top:5px;
+    font-weight:600;
+  }
+  .mytext2{
+    margin-top:10px;
+    font-size:12px;
+  }
+  #avy-1{
+    height:200vh;
+    background-color:rgb(248, 238, 238) ;
+  }
+  .img-row{
+    margin-top:50px;
+    
+  }
+  .row-up{
+    height:140vh;
+  }
+  .img-row-top{
+    height:120vh;
+  }
+  .bax{
+    text-align: right;
+  }
+  .row-txt1{
+    font-size:35px;
+    font-weight:400;
+    padding-top:50vh;
+  }
+  .row-txt2{
+    font-size:35px;
+    font-weight:400;
+    padding-top:10vh;
+   text-align: right;
+  }
+  @media(max-width:767px){
+    .row-txt1{
+      padding-top:0%;
+    }
+    .row-txt2{
+      padding-top:20%;
+    }
+    #avy-1{
+      height:250vh;
+      background-color:rgb(248, 238, 238) ;
+    }
+    .row-txt1{
+      font-size:20px;
+    }
+    .row-txt2{
+      font-size:20px;
+     
+    }
+  }
+  #checksomething{
+    background-color:rgb(248, 238, 238) ;
+    margin-top:-50px;
+    height:60vh;
+  
+  }
+  
+   
