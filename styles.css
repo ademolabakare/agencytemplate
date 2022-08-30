@@ -260,31 +260,39 @@
     background-position: center;
     background-size:cover;
     background-blend-mode:color-burn; 
+       object-fit: cover;
   }
   .back-img1{
     background: rgba(0, 0, 0, 0.7) url("https://user-images.githubusercontent.com/106655720/187012865-bc695d72-2571-4281-b5a8-a8d037a2037e.jpg");
     background-position: center;
     background-size:cover;
     background-blend-mode:darken;
+       object-fit: cover;
   }
   .back-img2{
-      background: rgba(0, 0, 0, 0.7) url("https://github.com/ademolabakare/agencytemplate/issues/1#issuecomment-1229112737");
+      background: rgba(0, 0, 0, 0.7) url("https://user-images.githubusercontent.com/106655720/187012733-033f191c-04b5-431b-83d3-f546c303b131.jpg");
     background-position: center;
     background-size:cover;
     background-blend-mode:darken;
+       object-fit: cover;
   }
   .back-img3{
       background: rgba(0, 0, 0, 0.7) url("https://user-images.githubusercontent.com/106655720/187012887-d1e4da73-eded-47e5-9275-397adbf26315.jpg");
     background-position: center;
     background-size:cover;
     background-blend-mode:darken;
+       object-fit: cover;
   }
   .back-img4{
       background: rgba(0, 0, 0, 0.7) url("https://user-images.githubusercontent.com/106655720/187012890-69d32932-2825-427e-be41-c365ba4ca56c.jpg");
     background-position: center;
     background-size:cover;
     background-blend-mode:darken;
+       object-fit: cover;
   }
+.card-img-top{
+  object-fit: cover;
+}
   .button-hide{
     display:none;
     margin-top:-100px;
@@ -300,14 +308,14 @@
     font-weight:bold;
   }
   #newsect{
-      background: rgba(0, 0, 0, 0.7) url("https://github.com/ademolabakare/agencytemplate/issues/1#issuecomment-1229119455");
+      background: rgba(0, 0, 0, 0.7) url("https://user-images.githubusercontent.com/106655720/187014096-6ce0ec7c-0fae-45b4-8b97-416c00900fff.jpg");
       background-position: center;
       height:100vh;
       background-size: cover;
       background-blend-mode:darken;
   }
   #anothersection{
-    background: rgba(0, 0, 0, 0.7) url("https://github.com/ademolabakare/agencytemplate/issues/1#issuecomment-1229119643");
+    background: rgba(0, 0, 0, 0.7) url("https://user-images.githubusercontent.com/106655720/187014138-eed2057f-4ef7-45a4-953b-683a6e962f2f.jpg");
     background-position: center;
     background-size:cover;
     background-blend-mode:darken;
