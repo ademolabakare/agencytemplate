@@ -1,7 +1,12 @@
 
     html{
       font-family:sans-serif;
-    }      
+    }   
+  .carousel-caption1{
+    color:aliceblue;
+    text-align: center;
+    
+  } 
   .overlay {
     /* Height & width depends on how you want to reveal the overlay (see JS below) */   
     height: 100%;
