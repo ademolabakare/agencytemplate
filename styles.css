@@ -636,6 +636,15 @@
       font-size:20px;
      
     }
+     .row-small{
+    width:500px;
+  }
+  .bax{
+    text-align:left;
+  }
+  #newsect{
+  max-height:850px;
+}
   }
   #checksomething{
     background-color:rgb(248, 238, 238) ;
