@@ -1,4 +1,10 @@
-
+    .col-8x{
+  padding-top:50px;
+}
+ #myNav1{
+      height:10vh;
+      background-color:#f1f1f1;
+     }
     html{
       font-family:sans-serif;
     }   
@@ -66,7 +72,7 @@
   #jumbo{
       background: rgba(0, 0, 0, 0.7) url("https://user-images.githubusercontent.com/106655720/187012646-6ad028c2-af0d-427b-aefa-3c6248f49d45.jpg");
       background-position: center;
-      height:80vh;
+      height:70vh;
       background-size: cover;
       background-blend-mode:darken;
       margin-top:-30px;
@@ -78,7 +84,7 @@
       color:rgb(245, 192, 192);;
       font-size:50px;
       float:right;
-      margin-top:-48px;
+      margin-top:-28px;
       margin-right:20px;
   }
   #formpass{
